@@ -11,7 +11,7 @@ public class TestMethodHiding {
 
         Vehicle.start();
         vehicle.start();
-        
+
         Car.start();
         car.start();
 

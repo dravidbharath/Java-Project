@@ -15,5 +15,16 @@ public class SpiderMan implements Superhero {
         } else {
             return "Spiderman stopped the villain";
         }
+        };
+
+    @Override
+    public String trackLiveLocation(){
+        String liveLocation = "USA";
+        System.out.println("I am in" + liveLocation);
+        return liveLocation;
     }
+
+public static String commonCharacteristics() {
+    return "Superhuman abilities,willingness to sacrifice";
+}
 }
